@@ -26,7 +26,8 @@ Example usage:
 import argparse
 import os
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "C:\Izaat\Text to Speech-28bea8820cbc.json"
+#Replace LINK with the drive location of your JSON file downloaded from Google
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "LINK"
 
 
 # [START tts_synthesize_text]
